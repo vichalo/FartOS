@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MainActivity"
+    android:background="@drawable/mapa1"
+    >
+
+ <!--   <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.fartos.Fragments.CartasFragment"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true" />-->
+ <!--Casilla 0 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla0"
+     android:layout_width="50dp"
+     android:layout_height="125dp"
+     android:layout_marginLeft="25dp"
+     android:layout_marginTop="545dp" />
+<!--Casilla 1 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla1"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="125dp"
+     android:layout_marginTop="585dp" />
+ <!--Casilla 2 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla2"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="225dp"
+     android:layout_marginTop="585dp" />
+ <!--Casilla 3 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla3"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="310dp"
+     android:layout_marginTop="585dp" />
+ <!--Casilla 4 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla4"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="350dp"
+     android:layout_marginTop="510dp" />
+ <!--Casilla 5 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla5"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="290dp"
+     android:layout_marginTop="465dp" />
+ <!--Casilla 6 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla6"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="205dp"
+     android:layout_marginTop="465dp" />
+ <!--Casilla 7 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla7"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="103dp"
+     android:layout_marginTop="465dp" />
+ <!--Casilla 8 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla8"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="40dp"
+     android:layout_marginTop="365dp" />
+ <!--Casilla 9 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla9"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="100dp"
+     android:layout_marginTop="265dp" />
+ <!--Casilla 10 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla10"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="185dp"
+     android:layout_marginTop="265dp" />
+ <!--Casilla 11 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla11"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="265dp"
+     android:layout_marginTop="265dp" />
+ <!--Casilla 12 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla12"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="370dp"
+     android:layout_marginTop="265dp" />
+ <!--Casilla 13 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla13"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="370dp"
+     android:layout_marginTop="170dp" />
+ <!--Casilla 14 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla14"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="310dp"
+     android:layout_marginTop="145dp" />
+ <!--Casilla 15 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla15"
+     android:layout_width="40dp"
+     android:layout_height="45dp"
+     android:layout_marginLeft="225dp"
+     android:layout_marginTop="145dp" />
+ <!--Casilla 16 -->
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/casilla16"
+     android:layout_width="100dp"
+     android:layout_height="75dp"
+     android:layout_marginLeft="150dp"
+     android:layout_marginTop="5dp" />
+
+ <FrameLayout
+     android:id="@+id/fragment_container"
+     android:layout_width="match_parent"
+     android:layout_height="75dp"
+     android:layout_alignParentBottom="true" />
+
+ <Button
+     android:id="@+id/showCartas1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="175dp"
+     android:text="Show cards" />
+
+
+
+
+
+</RelativeLayout>
